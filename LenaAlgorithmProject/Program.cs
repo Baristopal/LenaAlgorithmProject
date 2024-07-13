@@ -58,12 +58,6 @@
         Console.WriteLine($"Toplam Değer: {selectedEvents.Sum(s => s.Priority)}");
 
         Console.ReadLine();
-        //foreach (var data in selectedEvents)
-        //{
-        //    Console.Write(data.Id);
-        //    Console.Write(" || ");
-        //    Console.WriteLine($"{data.StartTime} || {data.EndTime} || Priority = {data.Priority}");
-        //}
 
     }
 }
